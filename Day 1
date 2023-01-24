@@ -1,0 +1,102 @@
+SELECT *
+FROM animal;
+
+SELECT id, name
+FROM animal;
+
+SELECT id, name, age
+FROM animal
+WHERE age>=2;
+
+SELECT id, name, age
+FROM animal
+WHERE age >= 2 AND name = 'dog';
+
+SELECT id, name, age
+FROM animal
+WHERE age >= 2 OR name = 'dog';
+
+SELECT DISTINCT name, color
+FROM clothing;
+
+SELECT name, color
+FROM clothing
+WHERE color IS NOT NULL;
+
+SELECT id, name
+FROM animal
+ORDER BY name;
+
+SELECT id, name
+FROM animal
+ORDER BY name DESC, id;
+
+SELECT id, name
+FROM animal
+WHERE name LIKE '%e%';
+
+SELECT CONCAT(category, ' ', name)
+FROM tab;
+
+SELECT price - discount
+FROM product;
+
+SELECT last_name FROM customer
+UNION ALL
+SELECT last_name FROM employee;
+
+SELECT last_name FROM customer
+INTERSECT
+SELECT last_name FROM employee;
+
+SELECT customer.last_name, city.name
+FROM customer
+INNER JOIN city
+  ON customer.id = city.customer_id;
+  
+SELECT c.last_name AS lname, t.name AS city
+FROM customer AS c
+INNER JOIN city AS t
+  ON c.id = t.customer_id;
+  
+SELECT COUNT(id)
+FROM product;
+
+SELECT AVG(price)
+FROM product;
+
+SELECT SUM(price)
+FROM product;
+
+SELECT MIN(price)
+FROM product;
+
+SELECT MAX(price)
+FROM product;
+
+SELECT category, COUNT(id)
+FROM product
+GROUP BY category;
+
+SELECT category, AVG(price)
+FROM product
+GROUP BY category
+HAVING AVG(price) < 56.50;
+
+DELETE FROM product;
+
+DELETE FROM product
+WHERE id = 5;
+
+INSERT INTO product(id, name, category)
+VALUES(25, 'sofa', 'furniture');
+
+UPDATE product SET company = 'ABC';
+
+UPDATE product
+SET name = 'armchair'
+WHERE id = 25;
+
+CREATE TABLE tab(id int, name varchar(50));
+
+DROP TABLE tab;
