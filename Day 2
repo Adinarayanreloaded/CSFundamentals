@@ -1,0 +1,87 @@
+A network is a set of devices that are connected with a physical media link. 
+In a network, two or more nodes are connected by a physical link or two or more networks are connected by one or more nodes.
+A network is a collection of devices connected to each other to allow the sharing of data.
+
+Network topology is the arrangement of nodes and links of a network.
+Topologies are categorized as either physical network topology or logical network topology.
+The topology of a network is key to determining its performance.
+Network topology can be categorized into – Bus Topology, Ring Topology, Star Topology, Mesh Topology, Tree Topology.
+
+Bandwidth is the data transfer capacity of a computer network in bits per second (Bps).
+The term may also be used colloquially to indicate a person’s capacity for tasks or deep thoughts at a point in time.
+
+A network is a connection setup of two or more computers directly connected by some physical mediums like optical fibre or coaxial cable. 
+This physical medium of connection is known as a link, and the computers that it is connected to are known as nodes.
+
+
+1. Network Access/Link layer : Decides which links such as serial lines or classic Ethernet must be used
+to meet the needs of the connectionless internet layer. Ex – Sonet, Ethernet
+2. Internet : The internet layer is the most important layer which holds the whole
+architecture together. It delivers the IP packets where they are supposed to be
+delivered. Ex – IP, ICMP.
+3. Transport : Its functionality is almost the same as the OSI transport layer. It
+enables peer entities on the network to carry on a conversation. Ex – TCP, UDP
+(User Datagram Protocol)
+4. Application : It contains all the higher-level protocols. Ex – HTTP, SMTP, RTP,
+DNS
+
+There are majorly 2 main layers in the OSI model:
+
+Physical Layer
+Data Link Layer
+
+It is used for transferring the data from one node to another node.
+It receives the data from the network layer and converts the data into data frames and then attaches the physical address to these frames which are sent to the physical layer.
+It enables the error-free transfer of data from one node to another node.
+Functions of Data-link layer:
+
+Frame synchronisation: Data-link layer converts the data into frames, and it ensures that the destination must recognize the starting and ending of each frame.
+Flow control: Data-link layer controls the data flow within the network.
+Error control: It detects and corrects the error occurred during the transmission from source to destination.
+Addressing: Data-link layers attach the physical address with the data frames so that the individual machines can be easily identified.
+Link management: Data-link layer manages the initiation, maintenance and termination of the link between the source and destination for the effective exchange of data.
+
+A node that is connected to two or more networks is commonly known as a gateway. 
+It is also known as a router. It is used to forward messages from one network to another. 
+Both the gateway and router regulate the traffic in the network. 
+Differences between gateway and router: A router sends the data between two similar networks while gateway sends the data between two dissimilar networks.
+
+The “ping” is a utility program that allows you to check the connectivity between the network devices. You can ping devices using its IP address or name.
+
+DNS:
+1. DNS is an acronym that stands for Domain Name System.DNS was introduced by Paul Mockapetris and Jon Postel in 1983.
+2. It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate resources easily over a network.
+3. DNS is an internet which maps the domain names to their associated IP addresses.
+4. Without DNS, users must know the IP address of the web page that you wanted to access.
+
+DNS Forwarder : A forwarder is used with a DNS server when it receives DNS queries that cannot be resolved quickly. 
+So it forwards those requests to external DNS servers for resolution. 
+A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.
+NIC stands for Network Interface Card. It is a peripheral card attached to the PC to connect to a network. 
+Every NIC has its own MAC address that identifies the PC on the network. 
+It provides a wireless connection to a local area network. NICs were mainly used in desktop computers.
+
+A media access control address (MAC address) is a unique identifier assigned to a network interface controller (NIC) for use as a network address in communications within a network segment.
+
+An IP address is a unique address that identifies a device on the internet or a local network. IP stands for “Internet Protocol,” which is the set of rules governing the format of data sent via the internet or local network.
+
+Private IP Address – There are three ranges of IP addresses that have been reserved
+for IP addresses. They are not valid for use on the internet. If you want to access the
+internet on these private IPs, you must use a proxy server or NAT server.
+
+Public IP Address – A public IP address is an address taken by the Internet Service
+Provider which facilitates communication on the internet.
+
+APIPA stands for Automatic Private IP Addressing (APIPA). 
+It is a feature or characteristic in operating systems (eg. Windows) which enables computers to self-configure an IP address and subnet mask automatically when their DHCP.
+A DHCP Server is a network server that automatically provides and assigns IP addresses, default gateways and other network parameters to client devices. 
+It relies on the standard protocol known as Dynamic Host Configuration Protocol) server isn’t reachable.
+
+A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. 
+It is used for getting a higher routing efficiency and enhances the security of the network.
+It reduces the time to extract the host address from the routing table.
+
+The firewall is a network security system that is used to monitor the incoming
+and outgoing traffic and blocks the same based on the firewall security policies. 
+It acts as a wall between the internet (public network) and the networking devices (a private network). 
+It is either a hardware device, software program, or a combination of both. It adds a layer of security to the network.
