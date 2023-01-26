@@ -1,0 +1,37 @@
+A Microprocessor is an important part of a computer architecture without which you will not be able to perform anything on your computer. It is a programmable device that takes in input performs some arithmetic and logical operations over it and produces the desired output. In simple words, a Microprocessor is a digital device on a chip that can fetch instructions from memory, decode and execute them and give results. 
+
+Basics of Microprocessor – 
+A Microprocessor takes a bunch of instructions in machine language and executes them, telling the processor what it has to do. Microprocessor performs three basic things while executing the instruction: 
+
+It performs some basic operations like addition, subtraction, multiplication, division, and some logical operations using its Arithmetic and Logical Unit (ALU). New Microprocessors also perform operations on floating-point numbers also. 
+ 
+Data in microprocessors can move from one location to another. 
+ 
+It has a Program Counter (PC) register that stores the address of the next instruction based on the value of the PC, Microprocessor jumps from one location to another and takes decisions. 
+
+
+RAM(Random Access Memory) is a part of computer’s Main Memory which is directly accessible by CPU. RAM is used to Read and Write data into it which is accessed by CPU randomly. RAM is volatile in nature, it means if the power goes off, the stored information is lost. RAM is used to store the data that is currently processed by the CPU. Most of the programs and data that are modifiable are stored in RAM. 
+
+Integrated RAM chips are available in two form: 
+
+SRAM(Static RAM)
+DRAM(Dynamic RAM)
+
+Static Linking and Static Libraries is the result of the linker making copy of all used library functions to the executable file. 
+Static Linking creates larger binary files, and need more space on disk and main memory. 
+Examples of static libraries (libraries which are statically linked) are, .a files in Linux and .lib files in Windows.
+
+A virtual function is a member function which is declared within a base class and is re-defined (overridden) by a derived class.
+When you refer to a derived class object using a pointer or a reference to the base class, 
+you can call a virtual function for that object and execute the derived class’s version of the function. 
+
+Virtual functions ensure that the correct function is called for an object, 
+regardless of the type of reference (or pointer) used for function call.
+They are mainly used to achieve Runtime polymorphism
+Functions are declared with a virtual keyword in base class.
+The resolving of function call is done at runtime.
+
+There are certain key points that are needed to be remembered before adhering forward where we will be discussing and implementing static and dynamic bindings in Java later concluding out the differences.  
+private, final and static members (methods and variables) use static binding while for virtual methods (In Java methods are virtual by default) binding is done during run time based upon the run time object.
+The static binding uses Type information for binding while Dynamic binding uses Objects to resolve to bind.
+Overloaded methods are resolved (deciding which method to be called when there are multiple methods with the same name) using static binding while overridden methods use dynamic binding, i.e, at run time.
