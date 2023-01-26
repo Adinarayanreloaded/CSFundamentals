@@ -1,1 +1,1 @@
-# CSFundamentalsPractice
+# CSFundamentals
