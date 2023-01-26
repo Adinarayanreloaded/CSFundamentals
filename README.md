@@ -1,1 +1,1 @@
-# DBMSPractice
+# CSFundamentalsPractice
